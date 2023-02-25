@@ -22,7 +22,7 @@ var skillsContainer = document.querySelector('.skills-display');
 window.addEventListener('scroll', checkScroll);
 var animationDone = false;
 
-
+// setting width to zero for all div
 function initialiseBars(){
     for(let bar of progressBars){
         bar.style.width = 0 + '%';
