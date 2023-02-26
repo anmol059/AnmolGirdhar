@@ -240,7 +240,7 @@ section:nth-child(2n + 1) {
   text-align: right;
 }
 
-.timeline-box::after {
+/* .timeline-box::after {
   content: '';
   position: absolute;
   width: 15px;
@@ -249,7 +249,7 @@ section:nth-child(2n + 1) {
   top: 25%;
   border-radius: 50%;
   z-index: 1;
-}
+} */
 
 .timeline-box:nth-child(2n) {
   left: 53%;
@@ -269,12 +269,20 @@ section:nth-child(2n + 1) {
 
 .timeline-logo {
   position: absolute;
-  width: 50px;
+  width: 91px;
   overflow: hidden;
 }
 
 .timeline-logo > img {
   width: 100%;
+}
+
+.width-50px {
+  width: 51px;
+}
+
+.width-70px {
+  width: 70px;
 }
 
 #timeline-divider {
@@ -536,6 +544,14 @@ button:focus {
 
 .mb-light-purple {
   background-color: #93738c;
+}
+
+.mb-light-crimson {
+  background-color: #c65071;
+}
+
+.mb-light-yellow {
+  background-color: #9aa139;
 }
 
 /*Percentage Classes */
