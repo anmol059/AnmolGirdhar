@@ -592,6 +592,14 @@ button:focus {
     left: 10% !important;
   }
 
+  .bars {
+    display: block;
+  }
+
+  .nav-menu {
+    display: none;
+  }
+
   .timeline-box::after {
     left: -9.3% !important;
   }
