@@ -597,10 +597,10 @@ button:focus {
 }
 
 @media (max-width: 396px) {
-  .timeline .timeline-box:nth-of-type(3) .timeline-container h3 {
+  #experience .timeline .timeline-box:nth-of-type(3) .timeline-container h3 {
     display: none;
   }
-  .timeline .timeline-box:nth-of-type(3) .timeline-container h3:nth-of-type(2) {
+  #experience .timeline .timeline-box:nth-of-type(3) .timeline-container h3:nth-of-type(2) {
     display: block;
   }
 }
