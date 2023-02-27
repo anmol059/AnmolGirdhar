@@ -21,9 +21,6 @@ body::-webkit-scrollbar {
   background-position: center;
   background-attachment: fixed;
   padding-top: 1.2rem;
-  image-rendering: auto;
-  image-rendering: crisp-edges;
-  image-rendering: pixelated;
 }
 
 /* Horizontal Lists */
@@ -121,7 +118,7 @@ body::-webkit-scrollbar {
 
 .social-icons li a i {
   padding: 10px;
-  font-size: 1rem;
+  font-size: 2rem;
   border-radius: 50%;
 }
 
@@ -404,8 +401,8 @@ section:nth-child(2n + 1) {
 }
 
 #my-details-container {
-  width: 35%;
-  margin-left: 6%;
+  width: 100%;
+  margin: 0% 25%;
 }
 
 #my-details-container h3 {
@@ -480,7 +477,7 @@ textarea {
 }
 
 #contact .social-icons li a i {
-  font-size: 1.2rem;
+  font-size: 2rem;
   margin: 40px 10px 10px;
   padding: 10px 14px 20px 10px;
 }
@@ -578,6 +575,14 @@ button:focus {
   display: none;
 }
 
+.email {
+  color: white;
+}
+
+.portfolio-details:hover {
+  cursor: pointer;
+}
+
 @media (max-width: 356px) {
   .top-73 {
     top: 80%;
@@ -660,5 +665,12 @@ button:focus {
   #contact-form-container {
     width: 80%;
     margin: 10%;
+  }
+}
+
+@media (max-width: 1179.9px) {
+  .portfolio-details {
+    color: white;
+    background-color: #80808078;
   }
 }

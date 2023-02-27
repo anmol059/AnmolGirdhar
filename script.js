@@ -70,3 +70,12 @@ function toggleDropDown(id) {
         elem.style.display = "none";
       }
 }
+
+function openGmail(mail) {
+    let mailtoLink = 'mailto:' + mail;
+    window.open(mailtoLink);
+}
+
+function goToGithub(repo) {
+    window.open("https://github.com/anmol059/" + repo);
+}
