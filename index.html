@@ -17,10 +17,10 @@
 
             <div class="dropdown-menu text-right">
                 <div class="bars">
-                    <i class="fas fa-bars"></i>
+                    <i class="fas fa-bars" onclick="toggleDropDown('navDropDown')"></i>
                 </div>
                 <div class="dropdown-list nav-menu">
-                    <ul class="no-list-style">
+                    <ul class="no-list-style" id="navDropDown">
                         <li>
                             <a href="#"> Home </a>
                         </li>
@@ -199,7 +199,8 @@
                 <span>
                     <i class="fas fa-briefcase"></i>
                 </span>
-                <span> Work Experience </span>
+                <span>Work</span>
+                <span> Experience</span>
             </h1>
 
             <div class="timeline">
@@ -210,9 +211,9 @@
                             <img
                                 src="images/hughes.jpeg">
                         </div>
-                        <h3 class="experience-designation  m0 m-blue"> Software Engineer </h3>
-                        <h4 class="experience-company-name"> Hughes Systique Corporation </h4>
-                        <h5 class="experience-duration m0"> Working from July 2021 </h5>
+                        <h3 class="experience-designation  m0 m-blue"> SDE </h3>
+                        <h4 class="experience-company-name"> HSC </h4>
+                        <h5 class="experience-duration m0"> From July 2021 </h5>
 
                         <p class="experience-description text-justify"> • Own major dashboard components: Healthcheck, Alarm Status, Fault Status, and Network Connection.<br>
                             • Contributed significantly to the creation of the Top Level Dashboard.<br>
@@ -234,7 +235,9 @@
                                 src="images/HCL_logo.jpeg">
                         </div>
                         <h3 class="experience-designation  m0 m-blue"> Software Engineer </h3>
+                        <h3 class="experience-designation  m0 m-blue display-none"> Engineer </h3>
                         <h4 class="experience-company-name"> HCL Technologies </h4>
+                        <h4 class="experience-company-name display-none"> HCL </h4>
                         <h5 class="experience-duration m0"> March 2021 - June 2021 </h5>
                         <p class="experience-description text-justify">• Developed some use cases on Java (OOPs) concepts as part of Training.<br>• I was working on Angular and learned best practices that are followed inside the company. </p>
                     </div>
@@ -247,6 +250,7 @@
                                 src="https://ninjasfiles.s3.amazonaws.com/asset_0000000000000030_1550710829_ninjasicon.png">
                         </div>
                         <h3 class="experience-designation m0 m-blue"> Teaching Assistant </h3>
+                        <h3 class="experience-designation m0 m-blue display-none"> TA </h3>
                         <h4 class="experience-company-name"> Coding Ninjas </h4>
                         <h5 class="experience-duration m0"> Jan 2021 - March 2021 </h5>
 
@@ -311,7 +315,7 @@
                             <img
                                 src="images/jaycees-no-bg.jpeg">
                         </div>
-                        <h3 class="experience-designation  m0 m-blue"> 12th || Intermediate </h3>
+                        <h3 class="experience-designation  m0 m-blue"> Intermediate </h3>
                         <h4 class="experience-company-name "> Jaycees(CBSE) </h4>
                         <h5 class="experience-duration m0"> March 2015 - April 2016 </h5>
                         <p class="experience-description text-justify"> • Completed Intermediate with a focus on Physics, Maths, and Chemistry.<br>
@@ -326,7 +330,7 @@
                             <img
                                 src="images/BDMS.jpeg">
                         </div>
-                        <h3 class="experience-designation  m0 m-blue"> 10th || High School </h3>
+                        <h3 class="experience-designation  m0 m-blue"> High School </h3>
                         <h4 class="experience-company-name "> BDMS(CBSE) </h4>
                         <h5 class="experience-duration m0"> April 2013 - March 2014 </h5>
 

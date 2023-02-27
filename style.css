@@ -72,6 +72,7 @@ body::-webkit-scrollbar {
   list-style: none;
   color: white;
   text-decoration: none;
+  font-size: 1.25rem;
 }
 
 .horizontal-list {
@@ -153,7 +154,6 @@ section:nth-child(2n + 1) {
   color: #2857a4;
   display: inline-block;
   padding-top: 10px;
-  margin-right: 0.5rem;
 }
 
 /*About Section*/
@@ -571,6 +571,40 @@ button:focus {
   width: 50%;
 }
 
+.display-none {
+  display: none;
+}
+
+@media (max-width: 376px) {
+  #experience h1 span:nth-of-type(2) {
+    display: none;
+  }
+}
+
+@media (max-width: 438px) {
+  .timeline .timeline-box:nth-of-type(2) .timeline-container h3 {
+    display: none;
+  }
+  .timeline .timeline-box:nth-of-type(2) .timeline-container h3:nth-of-type(2) {
+    display: block;
+  }
+  .timeline .timeline-box:nth-of-type(2) .timeline-container h4 {
+    display: none;
+  }
+  .timeline .timeline-box:nth-of-type(2) .timeline-container h4:nth-of-type(2) {
+    display: block;
+  }
+}
+
+@media (max-width: 396px) {
+  .timeline .timeline-box:nth-of-type(3) .timeline-container h3 {
+    display: none;
+  }
+  .timeline .timeline-box:nth-of-type(3) .timeline-container h3:nth-of-type(2) {
+    display: block;
+  }
+}
+
 @media (max-width: 572px) {
   .timeline-box {
     width: 100%;
@@ -590,14 +624,6 @@ button:focus {
   .timeline-box {
     width: 90%;
     left: 10% !important;
-  }
-
-  .bars {
-    display: block;
-  }
-
-  .nav-menu {
-    display: none;
   }
 
   .timeline-box::after {
