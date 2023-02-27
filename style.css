@@ -582,16 +582,16 @@ button:focus {
 }
 
 @media (max-width: 438px) {
-  .timeline .timeline-box:nth-of-type(2) .timeline-container h3 {
+  #experience .timeline .timeline-box:nth-of-type(2) .timeline-container h3 {
     display: none;
   }
-  .timeline .timeline-box:nth-of-type(2) .timeline-container h3:nth-of-type(2) {
+  #experience .timeline .timeline-box:nth-of-type(2) .timeline-container h3:nth-of-type(2) {
     display: block;
   }
-  .timeline .timeline-box:nth-of-type(2) .timeline-container h4 {
+  #experience .timeline .timeline-box:nth-of-type(2) .timeline-container h4 {
     display: none;
   }
-  .timeline .timeline-box:nth-of-type(2) .timeline-container h4:nth-of-type(2) {
+  #experience .timeline .timeline-box:nth-of-type(2) .timeline-container h4:nth-of-type(2) {
     display: block;
   }
 }
