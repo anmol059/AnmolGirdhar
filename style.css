@@ -21,6 +21,9 @@ body::-webkit-scrollbar {
   background-position: center;
   background-attachment: fixed;
   padding-top: 1.2rem;
+  image-rendering: auto;
+  image-rendering: crisp-edges;
+  image-rendering: pixelated;
 }
 
 /* Horizontal Lists */
