@@ -16,7 +16,7 @@ body::-webkit-scrollbar {
 
 #body-header {
   height: 65vh;
-  background-image: url(images/coverr.jpg);
+  background-image: url(images/coverr.jpeg);
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
@@ -573,6 +573,12 @@ button:focus {
 
 .display-none {
   display: none;
+}
+
+@media (max-width: 356px) {
+  .top-73 {
+    top: 80%;
+  }
 }
 
 @media (max-width: 376px) {
