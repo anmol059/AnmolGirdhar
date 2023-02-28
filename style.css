@@ -21,6 +21,13 @@ body::-webkit-scrollbar {
   background-position: center;
   background-attachment: fixed;
   padding-top: 1.2rem;
+  filter: blur(0);
+  backface-visibility: hidden;
+  -webkit-background-size: cover; /* Safari */
+  -moz-background-size: cover; /* Firefox */
+  -o-background-size: cover; /* Opera */
+  -webkit-backface-visibility: hidden; /* Safari */
+  -webkit-filter: blur(0); /* Safari */
 }
 
 /* Horizontal Lists */
